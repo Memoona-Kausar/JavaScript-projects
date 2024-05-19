@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .holder{
+    background-color: black;
+    padding: 20px 50px;
+    border-radius: 4px;
+    margin: 10px  0px;
+    color: white;
+}
+.container .holder p{
+   font-size: 22px;
+   font-weight: bold;
+   color: inherit;
+}
+.container .btn{
+    outline: none;
+    border: 2px solid rgb(141, 134, 134);
+    padding: 7px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 500 ;
+}
+.container .btn:hover{
+background-color: black;
+color: white;
+}
